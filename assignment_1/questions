@@ -1,0 +1,19 @@
+ ASSIGNMENT 1
+ ------------
+
+Note: The built-in functions are not allowed for the operations other than reading the image, displaying the image and adding noise to the image and the due date for submitting the assignment is 28th February.
+
+1. Download Lena image(grayscale), say f. Generate 100 noisy versions of f by adding Gaussian noise, and find the average of noisy images and display the same.
+
+2. Use the new Lena image (unprocessed), add salt and pepper noise to it. Use median filters of sizes 3x3, 5x5, 7x7 to remove that noise.
+
+3. Download leaning tower of PISA image(grayscale), and find the angle of inclination (use bilinear interpolation while rotating).
+
+4. Download cameraman image and do the following( in each, use nearest neighbor interpolation and bi-linear interpolation, and compare the results):
+    a) Scale it by 0.5 and display.
+    b) Scale it by 2 and display.
+    c) convert to the image of size 200x200 and display.
+
+5. Find attached pout-dark, pout- bright images,
+    a) Do histogram equalization on pout-dark and display the same
+    b) Do histogram matching(specification) on the pout-dark image, keeping pout-bright as a reference image.
