@@ -1,0 +1,44 @@
+Note: The built-in functions are allowed to use and the due date for submitting the assignment is on or before 30th April.
+
+    1]  Download Lena image and 2D-DFT of the image and call it as F1. For the same Lena image use 1D-DFT along each row and column ( as discussed in the class ) and call the resultant image as F2. Display the IFT(F1) and IFT(F2) and verify whether both are same or not. 
+
+    2]  Download Lena image and a Dog image. Find the Fourier transform of the Lena image, say R1. R1 is a real component of the Lena image and I1 is the imaginary component of the Fourier transform of the Lena image. 
+    Find the Fourier transform of Dog, call R2 as real and I2 as imaginary. Find IFT ( R1 * e I2 ) and display. Similarly, IFT ( R2 * e I1 ) and display. Observe the relationship between the original Dog and Lena image with respect to the displayed images.
+
+    3]  Synthesize a matrix with size 200 x 200 with 100's in the middle half of the image and 0's elsewhere. Call this matrix as image F. Find the following projections:
+
+        1.  Row
+
+        2.  Column
+
+        3.  Diagonal, 450
+
+        4.  Diagonal, 1350
+
+        Reconstruct using Back Projection in all the above directions and observe the resultant reconstructed image.
+
+    4]  Download a color Lena image and find the R, G, B components of the image and do the histogram equalization in each of the plane (R, G, B) and display the processed RGB color image.
+
+    5]  Write 10 characters of your choice on white paper with a black pen and leave some broken strokes while writing, Take the image of it using a mobile camera and do the following operations. Give your observation:
+
+        1.  Erosion
+
+        2.  Dilation
+
+        3.  Opening
+
+        4.  Closing
+
+        5.  Thickening
+
+        6.  Thinning
+
+
+The assignment can be shown to any one of the listed TA's :
+              Roll Number  Name of the TA   Mobile Number
+               CED14I030     Ranjth Raj              8754556003
+               CED14I014     Jahnavi                   9840631513
+               CED14I002      Anoop                     9497220764
+
+After displaying the code, the code must be mailed to the respective TAs.
+    
